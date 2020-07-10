@@ -1,4 +1,4 @@
-# ractical, real-world animation examples with Angular
+# Practical, real-world animation examples with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
