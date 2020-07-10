@@ -1,6 +1,16 @@
-# Animations
+# ractical, real-world animation examples with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+
+This project contains examples of practical, real-world animations using Angular: 
+- A slide-down animation exposing an Add Post component's template
+- A fade in for the new post applied
+- A thumbnail photo that will expand smoothly to full-size when clicked and shrink back down when clicked again
+- An animation that will draw attention to an element
+- Two variations of animation when adding to a dynamic list.  One will fade in.  The other will slide in from the left. 
+- Fade animation when changing routes, configured in one place
+
+For a full explanation, see my [Blog](http://dev-reboot/animations).
 
 ## Development server
 
