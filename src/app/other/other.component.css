@@ -1,0 +1,24 @@
+.container {
+  padding: 10px;
+  /* background-color: lightgreen; */
+  height: 100vh;
+}
+
+.hyperlink {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 80px;
+}
+
+mat-divider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-bottom: 10px;
+}

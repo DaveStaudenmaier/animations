@@ -1,0 +1,48 @@
+<div class="container mat-body-1">
+  <h1>Other Component</h1>
+  <br>
+  <!-- <div [@slowEntryAnimation]="exp">
+    <img class="expander image" src="./../../assets/images/redwoods.png">
+  </div> -->
+  <p>Click thumbnail to view full size</p>
+  <div>
+    <img [@thumbnailImageExpandAnimation]="imageState"
+    class="image"
+    src="./../../assets/images/redwoods.png"
+    (click)="expandImage()">
+  </div>
+
+  <div>
+    <button mat-button class="mat-raised-button" (click)="startAnimation()">Animate element to draw attention</button>
+  </div>
+
+  <div>
+    <button mat-button
+            class="mat-raised-button"
+            (click)="addItemToList()">
+        Add to list animations
+  </button>
+  </div>
+
+  <p>Fade in animation</p>
+  <ul [@listAddItemFadeAnimation]="items.length" class="items">
+    <li *ngFor="let item of items" class="item">
+      Item {{ item }}
+    </li>
+  </ul>
+  <mat-divider></mat-divider>
+  <p>Slide in animation</p>
+  <ul class="items">
+    <li *ngFor="let item of items" class="item" [@listAddItemSlideInAnimation]="'slideIn'">
+      Item {{ item }}
+    </li>
+  </ul>
+  <mat-divider></mat-divider>
+
+  <div [@attentionAnimation]="attention">
+    <p class="attention">some text</p>
+  </div>
+
+  <br>
+  <a routerLink="/post" class="hyperlink">Go to Posts</a>
+</div>

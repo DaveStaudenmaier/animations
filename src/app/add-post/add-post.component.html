@@ -1,0 +1,40 @@
+<div class="background">
+  <div class="form-fields">
+    <form [formGroup]="form">
+      <div>
+      </div>
+      <div>
+        <mat-form-field appearance="outline">
+          <mat-label>Post</mat-label>
+          <textarea matInput
+                    #post
+                    rows="4"
+                    type="text"
+                    placeholder="Enter your post"
+                    formControlName="post">
+          </textarea>
+        </mat-form-field>
+      </div>
+
+      <div class="buttons">
+        <div class="button">
+          <button [disabled]="!form.valid"
+                  class="mat-raised-button mat-primary"
+                  (click)="onPost()">
+                  Post
+          </button>
+        </div>
+        <div class="button">
+          <button class="mat-raised-button"
+                  (click)="onCancel()">
+                  Cancel
+          </button>
+        </div>
+      </div>
+
+    </form>
+    <br>
+    <mat-divider></mat-divider>
+  </div>
+</div>
+

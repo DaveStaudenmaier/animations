@@ -1,0 +1,44 @@
+.container {
+  padding: 10px;
+  /* background-color: lightblue; */
+  height: 100vh;
+}
+
+.hyperlink {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer
+}
+
+.body {
+  clear: left;
+  margin-top: 10px;
+}
+
+.body-text {
+  margin-bottom: 15px;
+}
+
+.name-and-date {
+  margin-left: 50px;
+  font-size: 80%;
+  line-height: 1.5;
+}
+
+.display-name {
+  font-weight: bold;
+}
+
+.profile-image-post {
+  float: left;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.author {
+  clear: left;
+  margin-top: 10px;
+  cursor: pointer;
+}
