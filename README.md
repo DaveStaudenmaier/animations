@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-This project contains examples of practical, real-world animations using Angular: 
+This project contains examples of practical, real-world animations using Angular's animation capability: 
 - A slide-down animation exposing an Add Post component's template
 - A fade in for the new post applied
 - A thumbnail photo that will expand smoothly to full-size when clicked and shrink back down when clicked again
