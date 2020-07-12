@@ -10,7 +10,7 @@ This project contains examples of practical, real-world animations using Angular
 - Two variations of animation when adding to a dynamic list.  One will fade in.  The other will slide in from the left. 
 - Fade animation when changing routes, configured in one place
 
-For a full explanation, see my [Blog](http://dev-reboot/animations).
+For a full explanation, see my [Blog](http://dev-reboot.com/animations/).
 
 ## Development server
 
